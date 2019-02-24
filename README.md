@@ -12,7 +12,7 @@ This repo is designed for those who want to start their projects of GAN. It prov
         -  [Data Loader](#data-loader)
         -  [Logger](#logger)
         -  [Configuration](#configuration)
-        -  [Train.py](#train.py)
+        -  [Train](#train)
         -  [Inference](#inference)
  -  [References](#references)
 
@@ -96,7 +96,7 @@ This class is responsible for printer and log-writer.
 ### Configuration
 I use dictionary as configuration method and then parse it, so write all configs you want then parse it using "utils/configs/config.py" and pass this configuration object to all other objects.
 
-### train.py
+### train
 Here's where you combine all previous part.
 1. Parse the config file.
 2. Create an instance of "Model", "Dataset" and "Logger" and parse the config to all of them.
