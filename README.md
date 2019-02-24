@@ -5,7 +5,6 @@ This repo is designed for those who want to start their projects of GAN. It prov
 # Table Of Contents
 
 -  [In Details](#in-details)
-    -  [Project architecture](#project-architecture)
     -  [Folder structure](#folder-structure)
     -  [ Main Components](#main-components)
         -  [Nets](#nets)
@@ -13,7 +12,7 @@ This repo is designed for those who want to start their projects of GAN. It prov
         -  [Data Loader](#data-loader)
         -  [Logger](#logger)
         -  [Configuration](#configuration)
-        -  [train.py](#train.py)
+        -  [Train.py](#train.py)
         -  [Inference](#inference)
  -  [References](#references)
 
