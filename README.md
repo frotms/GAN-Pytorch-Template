@@ -70,13 +70,13 @@ Folder structure
     - ***Load*** -This function to load a checkpoint from the desk.
     - ***Cur_epoch*** -These variables to keep track of the current epoch.
     - ***create_model*** Here's an abstract function to define the model, ***Note***: override this function in the model you want to implement.
-    - 
+
 - #### **Your model**
     Here's where you implement your model.
     So you should :
     - Create your model class and inherit the base_model class
     - override "create_model" where you write the pytorch net you want
-    - 
+
 - #### **Base trainer**
     Base trainer is an abstract class that just wrap the training process.
     
@@ -98,7 +98,6 @@ I use dictionary as configuration method and then parse it, so write all configs
 ### train.py
 Here's where you combine all previous part.
 1. Parse the config file.
-2. Create a tensorflow session.
 2. Create an instance of "Model", "Dataset" and "Logger" and parse the config to all of them.
 3. Create an instance of "Trainer" and pass all previous objects to it.
 4. Now you can train your model by calling "Trainer.train()"
