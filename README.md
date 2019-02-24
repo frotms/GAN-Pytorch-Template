@@ -8,16 +8,14 @@ This repo is designed for those who want to start their projects of GAN. It prov
     -  [Project architecture](#project-architecture)
     -  [Folder structure](#folder-structure)
     -  [ Main Components](#main-components)
-        -  [Models](#models)
-        -  [Trainer](#trainer)
+        -  [Nets](#nets)
+        -  [Trainers](#trainers)
         -  [Data Loader](#data-loader)
         -  [Logger](#logger)
         -  [Configuration](#configuration)
         -  [train.py](#train.py)
         -  [Inference](#inference)
- -  [Future Work](#future-work)
- -  [Contributing](#contributing)
- -  [Acknowledgments](#acknowledgments)
+ -  [References](#references)
 
 
 # In Details
@@ -59,6 +57,10 @@ Folder structure
 
 
 ## Main Components
+
+### Nets
+- #### **your net**
+	build you net that Inherited by torch.nn.Module.
 
 ### Trainers
 --------------
